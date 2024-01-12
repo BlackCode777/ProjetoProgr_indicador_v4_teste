@@ -12,6 +12,7 @@ import { CoupensComponent } from './coupens/coupens.component';
 import { PagesComponent } from './pages/pages.component';
 import { MediaComponent } from './media/media.component';
 import { SettingsComponent } from './settings/settings.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { SettingsComponent } from './settings/settings.component';
     CoupensComponent,
     PagesComponent,
     MediaComponent,
-    SettingsComponent
+    SettingsComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
